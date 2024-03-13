@@ -1,0 +1,14 @@
+name: Rego (OPA Policy) Unit Tests
+run-name: ${{ github.actor }} is running Rego (OPA Policy) unit test Actions 🚀
+on: [push]
+jobs:
+  Rego-Unit-Tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Open Policy Agent (OPA) Policies
+        uses: finleap-connect/opa-test-action@v3.0.0
+        with:
+          tests: ./
+          options: --verbose
+                
+                
