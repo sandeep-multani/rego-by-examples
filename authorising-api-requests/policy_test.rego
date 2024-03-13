@@ -1,5 +1,7 @@
 package rules_test
 
+import data.rules.allow
+
 # unit tests
 anyone_can_get_cars {
 	in = {
