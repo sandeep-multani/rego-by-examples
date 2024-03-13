@@ -1,3 +1,5 @@
+package rules
+
 # unit tests
 anyone_can_get_cars {
 	in = {
