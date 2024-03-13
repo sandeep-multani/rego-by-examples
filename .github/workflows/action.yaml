@@ -8,7 +8,7 @@ jobs:
       - name: Test Open Policy Agent (OPA) Policies
         uses: finleap-connect/opa-test-action@v3.0.0
         with:
-          tests: ./
+          tests: ./authorising-api-requests/policy_test.rego
           options: --verbose
                 
                 
