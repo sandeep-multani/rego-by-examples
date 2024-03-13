@@ -1,4 +1,4 @@
-package rules
+package rules_test
 
 # unit tests
 anyone_can_get_cars {
