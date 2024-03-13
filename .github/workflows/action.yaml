@@ -14,7 +14,6 @@ jobs:
         version: latest
 
     - name: Run OPA Tests
-      working-directory: ./authorising-api-requests
-      run: opa test . -v
+      run: opa test authorising-api-requests/*.rego -v
                 
                 
