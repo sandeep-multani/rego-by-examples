@@ -13,6 +13,12 @@ jobs:
       with:
         version: latest
 
+    - name: Run OPA Version
+      run: opa version   
+
+    - name: List files
+      run: ls authorising-api-requests
+
     - name: Run OPA Tests
       run: opa test authorising-api-requests/*.rego -v
                 
