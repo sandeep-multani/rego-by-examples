@@ -20,6 +20,6 @@ jobs:
       run: ls ./authorising-api-requests/
 
     - name: Run OPA Tests
-      run: opa test --verbose ./authorising-api-requests/
+      run: opa test --verbose --bundle ./authorising-api-requests/
                 
                 
