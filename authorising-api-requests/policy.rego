@@ -1,4 +1,4 @@
-package rules
+package auth_api
 
 # Secnarios: The policy is for car store application limits who can run each of the RESTful APIs.
 # Below is the list of who is authorized to run which API.
